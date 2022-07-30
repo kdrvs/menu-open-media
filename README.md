@@ -1,0 +1,1 @@
+Web extension. Adding the "Open" context menu for media types.

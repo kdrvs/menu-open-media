@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Open media context",
+  "description": "Adds a context menu: open mediafiles",
+  "version": "1.0.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "45.0"
+    }
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+  
+  "permissions": [
+    "menus",
+    "<all_urls>"
+  ]
+
+}
